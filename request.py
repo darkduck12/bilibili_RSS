@@ -16,7 +16,7 @@ options.add_argument('--headless')
 # Configure ChromeDriver
 service = Service('./chromedriver')  # Update path if necessary
 driver = webdriver.Chrome(service=service, options=options)
-url = 'https://space.bilibili.com/478720594/video'
+url = 'https://space.bilibili.com/31341757/upload/video'
 driver.get(url)
 
 # Wait for page elements to load
